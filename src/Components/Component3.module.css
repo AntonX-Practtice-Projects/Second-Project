@@ -1,0 +1,46 @@
+.main-component {
+    height: 100%;
+    background-color: #868688;
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.company {
+    position: relative;
+    top: -15px;
+}
+.desc {
+    position: relative;
+    top: -10px;
+}
+
+@media (min-width:775px) {
+    .main-component {
+        height: 150px;
+        width: 350px;
+        background-color: #868688;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 10px;
+        overflow: hidden;
+        text-align: start;
+    }
+    
+}
+@media (min-width:1032px){
+    
+    .main-component {
+        height: 250px;
+        width: 450px;
+        background-color: #868688;
+        border-radius: 4%;
+        padding: 10px;
+        margin: 20px;
+        text-align: start;
+    }
+}
